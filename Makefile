@@ -8,8 +8,7 @@ start:
 	docker-compose up
 
 setup:
-	#docker-compose run web rails db:create db:migrate
-	docker-compose run web rails db:reset
+	docker-compose run web rails db:create db:migrate
 
 restart:
 	docker-compose restart web

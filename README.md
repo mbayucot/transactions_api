@@ -27,7 +27,7 @@ The application will be available at `http://localhost:3000`.
 
 To run database migrations, use:
 
-`make migrate`
+`make setup`
 
 ## Running Tests
 
