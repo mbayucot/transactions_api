@@ -5,4 +5,4 @@ test:
   pool: 5
   username: myuser
   password: mypassword
-  host: db
+  host: localhost
